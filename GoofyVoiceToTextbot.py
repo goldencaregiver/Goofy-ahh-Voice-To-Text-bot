@@ -3,7 +3,7 @@ import telebot
 import speech_recognition
 from pydub import AudioSegment
 
-token = 'YOUT TOKEN HERE'
+token = 'YOUR TOKEN HERE'
 
 bot = telebot.TeleBot(token) 
 
@@ -66,3 +66,4 @@ def transcript(message):
     bot.send_message(message.chat.id, response) 
 
 bot.polling()
+

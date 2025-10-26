@@ -3,7 +3,7 @@ import telebot
 import speech_recognition
 from pydub import AudioSegment
 
-token = 'YOUR TOKEN HERE'
+token = os.getenv('BOT_TOKEN') # Теперь окружение берётся извне при запуске контейнера / можно добавить файл .env 
 
 bot = telebot.TeleBot(token)
 

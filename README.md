@@ -30,6 +30,7 @@ cd Goofy-ahh-Voice-To-Text-bot
 pip install -r requirements.txt
 
 # Не забудьте сделать файл окружения .env, из которого бот будет брать токен :)
+# Содержимое этого файла должно быть: BOT_TOKEN=(тут циферки вашего токена)
 
 # Запуск
 python GoofyVoiceToTextbot.py
